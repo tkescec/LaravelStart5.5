@@ -1,0 +1,38 @@
+{
+    "name": "srlabs/centaur",
+    "description": "An opinionated implementation of Cartalyst's Sentinel for Laravel 5",
+    "keywords": ["laravel", "sentinel", "auth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Durham",
+            "email": "ryan@stagerightlabs.com",
+            "homepage": "http://stagerightlabs.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Centaur\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.5.*",
+        "cartalyst/sentinel": "2.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*",
+        "orchestra/testbench": "3.5.*",
+        "Mockery/Mockery": "^0.9.4",
+        "symfony/css-selector": "3.2.*",
+        "symfony/dom-crawler": "3.2.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Centaur\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "vinkla/hashids": "A Hashids bridge for Laravel 5"
+    }
+}

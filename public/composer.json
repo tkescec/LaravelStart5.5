@@ -1,0 +1,5 @@
+{
+    "require": {
+        "srlabs/centaur": "^5.0"
+    }
+}
